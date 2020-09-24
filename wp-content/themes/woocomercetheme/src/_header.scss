@@ -1,0 +1,75 @@
+header {
+
+    background: $light;
+    padding: 1rem 0 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+
+    .logo {
+        width: 150px;
+    }
+
+    .responsive-menu
+    {
+        display: flex;
+        padding: 10px;
+        @media only screen and (max-width: 769px) {
+
+
+            display:block;
+            justify-content: none;
+            text-align: center;
+
+    }
+    }
+    .top-menu {
+        @media only screen and (max-width: 769px) {
+
+
+            display:block;
+            justify-content: none;
+            text-align: center;
+
+    }
+        list-style-type: none;
+        margin: 0 0 0 10px;
+        padding:0;
+        display: flex;
+        li {
+            list-style-type: none;
+            a {
+                padding: .25rem 1rem;
+                color: $azul2;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+        }
+    }
+    .categorias {
+        @media only screen and (max-width: 769px) {
+
+
+            display:block;
+            justify-content: none;
+            text-align: center;
+
+    }
+        display:flex;
+        justify-content: space-around;
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color: #13426B;
+        li {
+            list-style-type: none;
+            a {
+
+                color: $light;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .dgwt-wcas-search-wrapp {
+        max-width: 400px;
+    }
+
+}
